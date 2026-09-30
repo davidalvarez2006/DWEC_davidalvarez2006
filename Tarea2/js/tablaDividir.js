@@ -5,7 +5,7 @@ const mostrarTabla = (event) => {
 
     if (numero >= 0 && numero <= 10) {
         let tabla = document.getElementById('tabla');
-        let tablaDividir = `<h2>Tabla de división del número ${numero}</h2>`;
+        let tablaDividir = `<h2>Tabla de dividir del número ${numero}</h2>`;
 
         tablaDividir += '<ul>';
         for (let i = 0; i <= 10; i++) {
